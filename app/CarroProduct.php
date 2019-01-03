@@ -4,10 +4,10 @@ namespace App;
 
 class CarroProduct
 {
-    private $preco;
-    private $dscMotor;
-    private $anoDeFabricacao;
-    private $modelo;
-    private $montadora;
+    public $preco;
+    public $dscMotor;
+    public $anoDeFabricacao;
+    public $modelo;
+    public $montadora;
 
 }

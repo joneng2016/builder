@@ -2,7 +2,7 @@
 
 namespace App;
 
-public class FiatBuilder extends CarroBuilder
+class FiatBuilder extends CarroBuilder
 {
     public function buildPreco()
     {

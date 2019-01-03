@@ -4,11 +4,10 @@ namespace App;
 
 abstract class CarroBuilder
 {
-    protected $carro;
 
     public function __construct()
     {
-        $carro = new CarroProduct; 
+        $this->carro = new CarroProduct; 
     }
     
     abstract protected function buildPreco();
@@ -18,6 +17,6 @@ abstract class CarroBuilder
     abstract protected function buildMontadora();
     public function getCarro()
     {
-        return $carro;
+        return $this->carro;
     }
 }
